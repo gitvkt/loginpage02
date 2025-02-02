@@ -1,66 +1,56 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(45deg, cyan, yellow);
-    }
-
-   div{
-    background-color: rgba(0,0,0,0.7);
-    position: absolute;
-    padding: 80px;
-    border: none;
-    border-radius: 10px;
-    outline: none;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
-   }
-
-   h1{
-    color: white;
-    text-align: center;
-   }
-
-   input{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
-    padding: 15px;
-    outline: none;
-    border: none;
-    border-radius: 10px;
-    
-   }
-
-   button{
-    background-color: dodgerblue;
-    color: white;
-    padding: 15px;
-    outline: none;
-    border: none;
-    border-radius: 10px;
-    width: 100%;
-
-   }
-
-   button:hover{
-    background-color: deepskyblue;
-    cursor: pointer;
-   }
-
-  /* Definir o elemento que irá piscar */
-.elemento-piscando {
-    animation: piscar 1s infinite;
-  }
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(45deg, rgb(9, 130, 243), rgb(15, 224, 95));
   
-  /* Definir a animação */
-  @keyframes piscar {
-    0% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 0.5;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
+}
+
+h1{
+  color: white;
+  text-align: center;
+}
+
+div{
+  background-color: rgba(0,0,0,0.6);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 100px;
+  border-radius: 10px;
+  border: none;
+  outline: none; 
+}
+
+input{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 15px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+}
+
+button{
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: deepskyblue;
+}
+
+button:focus{
+  background-color: rgb(17, 221, 160);
+}
+
+img{
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  
+}
